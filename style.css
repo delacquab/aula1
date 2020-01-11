@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+}
+
+.div-esq{
+    background-color: #1E90FF;
+}
+
+.div-dir{
+    background-color: white;
+}
+
+.div-dir, .div-esq{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-esq p{
+    color: white;
+    font-size: 18px;
+    
+}
+
+.interna{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.p_maior{
+    font-size: 27px;
+    margin-bottom: 50px;
+}
+
+.entrar{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+button{
+    background: transparent;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: none;
+    border-style: solid;
+    border-color: #1E90FF;
+    border-width: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao_branco{
+    
+}
+
+.botao_azul{
+    background-color: #1E90FF;
+    color: white;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.botao_branco{
+    background-color: white;
+    color: #1E90FF;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.botao_menor{
+    background-color: white;
+    color: #1E90FF;   
+    width: 70px;
+    border-radius: 25px;
+}
+
+.imgtext{
+    display: flex;
+}
+
+.imagemBranca{
+    filter: invert(1);
+}

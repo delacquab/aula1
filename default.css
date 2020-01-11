@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: monospace;
+}
+
+.pink-test{
+    color: pink !important;
+}
+
+.blue-text{
+
+}
+
+#orange-text{
+    color: orange;
+}
